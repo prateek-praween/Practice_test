@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	border:0;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	color: brown;
+	font-style: "Lucida Console";
+	margin: 20px;
+}
+.row{
+	width:100%;
+	margin: 5px;
+}
+.space{
+	position: relative;
+	
+}
+p{
+	width:90%;
+	height:300px;
+	padding-top: 40px;
+	overflow: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	display: inline;
+	position:absolute;
+	right:0px;
+	padding-left: 15%;
+	padding-right: 15%;
+	border:1px solid black;
+}
+.one{
+	background-color: pink;
+}
+.two{
+	background-color: brown;
+	color: white;
+}
+.three{
+	background-color: orange;
+}
+@media (min-width: 992px){
+	.col-lg-4{
+		float:left;
+		width:33.32%;
+		border:5px solid white;
+		background-color: grey;
+	}
+}
+@media(min-width: 768px ) and (max-width: 991px){
+	.col-md-6{
+		float:left;
+		width:50%;
+		border:5px solid white;
+		background-color: grey;
+	}
+	.col-md-12{
+		float:left;
+		width:100%;
+		border:5px solid white;
+		background-color: grey;
+	}
+}
+@media(max-width: 767px ){
+	.col-sm-12{
+		float:left;
+		width:100%;
+		border:5px solid white;
+		background-color: grey;
+	}
+}
+.foot{
+	background-color: grey;
+}
